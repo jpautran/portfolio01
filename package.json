@@ -1,0 +1,28 @@
+{
+  "name": "portfolio01",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">\r     Portfolio\r </h1>",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpautran/portfolio01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpautran/portfolio01/issues"
+  },
+  "homepage": "https://github.com/jpautran/portfolio01#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

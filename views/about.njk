@@ -1,19 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>João Paulo</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <div class="links">
-            <a href="classes.html">Projetos</a>
-            <a href="index.html">Sobre</a>
-        </div>
-    </header>
+{% extends "layout.njk" %}
+
+{% block head %}
+<title>Sobre - João Paulo</title>
+{% endblock %}
+
+{% block content %}
 
     <div id="wrapper">
         <img src="https://avatars3.githubusercontent.com/u/66528086?s=460&u=423575da73790cb2dd0eb04378754ab211d0a276&v=4" alt="foto">
@@ -26,5 +17,5 @@
         <a href="https://github.com/jpautran/" target="_blank">Github</a>
         <a href="https://www.linkedin.com/in/jpautran-dev/" target="_blank">LinkedIn</a>
     </div>
-</body>
-</html>
+
+{% endblock %}

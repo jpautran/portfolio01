@@ -1,0 +1,117 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+<title>Portfolio - João Paulo</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+
+    <div id="wrapper">
+        <h1>Projetos</h1>
+    </div>
+
+    <section class="cards">
+        <div class="card" id="finans">
+            <div class="card__image-container">
+                <img src="img/finans.png" alt="Projeto">
+            </div>
+            <div class="card__content">
+                <p>Home page for a fictitious bank</p>
+            </div>
+            <div class="card__info">
+                <p>Website</p>
+                <p class="card__price">Preview</p>
+            </div>
+        </div>
+
+        <div class="card" id="ecoleta">
+            <div class="card__image-container">
+                <img src="img/ecoleta.png" alt="Projeto">
+            </div>
+            <div class="card__content">
+                <p>Recycling Marketplace</p>
+            </div>
+            <div class="card__info">
+                <p>Website/App</p>
+                <p class="card__price">Preview</p>
+            </div>
+        </div>
+
+        <div class="card" id="spotify">
+            <div class="card__image-container">
+                <img src="img/spotify.png" alt="Projeto">
+            </div>
+            <div class="card__content">
+                <p>Spotify Clone</p>
+            </div>
+            <div class="card__info">
+                <p>Website</p>
+                <p class="card__price">Preview</p>
+            </div>
+        </div>
+
+        
+        <div class="card" id="bg-generator">
+            <div class="card__image-container">
+                <img src="img/bg-generator.png" alt="Projeto">
+            </div>
+            <div class="card__content">
+                <p>Background generator</p>
+            </div>
+            <div class="card__info">
+                <p>Website</p>
+                <p class="card__price">Preview</p>
+            </div>
+        </div>
+
+        
+        <div class="card" id="rocket">
+            <div class="card__image-container">
+                <img src="img/rocket.png" alt="Projeto">
+            </div>
+            <div class="card__content">
+                <p>Rocketseat Website</p>
+            </div>
+            <div class="card__info">
+                <p>Website</p>
+                <p class="card__price">Preview</p>
+            </div>
+        </div>
+
+                <div class="card" id="museum">
+            <div class="card__image-container">
+                <img src="img/museum.png" alt="Projeto">
+            </div>
+            <div class="card__content">
+                <p>National Museum</p>
+            </div>
+            <div class="card__info">
+                <p>Website</p>
+                <p class="card__price">Preview</p>
+            </div>
+        </div>
+
+
+    </section>
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <a class="close-modal">
+                <i class="material-icons">close</i>
+            </a>
+
+            <div class="modal-content">
+                <img src="" alt="Website">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="main.js"></script>
+
+{% endblock %}
